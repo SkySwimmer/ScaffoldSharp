@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard20;net35;net40;net45;net48;net60;net80</TargetFrameworks>
+    <AssemblyName>ScaffoldSharp.Services</AssemblyName>
+    <Description>Service manager library for ScaffoldSharp</Description>
+    <LangVersion>latest</LangVersion>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>  
+</PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath>../build/assemblies/$(TargetFramework)</OutputPath>
+    <DocumentationFile>../build/assemblies/$(TargetFramework)/$(AssemblyName).xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- references -->
+    <ProjectReference Include="..\ScaffoldSharp.Logging\ScaffoldSharp.Logging.csproj" />
+    <ProjectReference Include="..\ScaffoldSharp.EventBus\ScaffoldSharp.EventBus.csproj" />
+    <ProjectReference Include="..\ScaffoldSharp.Core\ScaffoldSharp.Core.csproj" />
+  </ItemGroup>
+</Project>
