@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard20</TargetFrameworks>
-    <AssemblyName>ScaffoldSharp.EventBus</AssemblyName>
-    <Description>Event bus library for ScaffoldSharp</Description>
+    <AssemblyName>ScaffoldSharp.ConfigBase</AssemblyName>
+    <Description>Base configuration API for ScaffoldSharp</Description>
     <LangVersion>latest</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <ProduceReferenceAssembly>false</ProduceReferenceAssembly>  
@@ -17,6 +17,5 @@
   <ItemGroup>
     <!-- references -->
     <ProjectReference Include="..\ScaffoldSharp.Logging\ScaffoldSharp.Logging.csproj" />
-    <ProjectReference Include="..\ScaffoldSharp.Core\ScaffoldSharp.Core.csproj" />
   </ItemGroup>
 </Project>

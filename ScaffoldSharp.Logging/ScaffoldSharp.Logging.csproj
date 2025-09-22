@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard20;net35;net40;net45;net48;net60;net80</TargetFrameworks>
+    <TargetFrameworks>netstandard20</TargetFrameworks>
     <AssemblyName>ScaffoldSharp.Logging</AssemblyName>
     <Description>Logging library for ScaffoldSharp</Description>
     <LangVersion>latest</LangVersion>

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaffoldSharp.Logging", "Sc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaffoldSharp.Services", "ScaffoldSharp.Services\ScaffoldSharp.Services.csproj", "{F73D8098-1866-4170-BCA4-587B800E5449}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaffoldSharp.ConfigBase", "ScaffoldSharp.ConfigBase\ScaffoldSharp.ConfigBase.csproj", "{D6F29494-A05B-4BD8-8209-34A781B5C52E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{F73D8098-1866-4170-BCA4-587B800E5449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F73D8098-1866-4170-BCA4-587B800E5449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F73D8098-1866-4170-BCA4-587B800E5449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F29494-A05B-4BD8-8209-34A781B5C52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F29494-A05B-4BD8-8209-34A781B5C52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F29494-A05B-4BD8-8209-34A781B5C52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F29494-A05B-4BD8-8209-34A781B5C52E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
